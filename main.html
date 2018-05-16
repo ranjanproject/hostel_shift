@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Hostel Shift Form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+  <div class="container">
+    <div class="headr">
+    <a href="http://www.iitg.ac.in/"> <img src="Logo.png" alt="Logo"></a>
+       <h1>भारतीय प्रौद्योगिकी संस्थान गुवाहाटी</h1>
+       <h1>Indian Institute of Technology Guwahati</h1>
+       <h2>Guwahti-781039</h2>
+    </div>
+    <div class="box">
+      <h3>Form No.</h3>
+      <h3><b>Hostel/02</b></h3>
+    </div>
+    <hr>
+  </div>
+  <div class="headr">
+    <h1>Hostel Shift Form</h1>
+    <h2>(To be submitted to the Sr.Asst./Jr.Asst./Jr. Supt.of the hostel shifted to)</h2><br>
+    <h2 color="red"> <span><b>Note:</b></span>Original copies of the approval letter by the respective wardens must be attached.</h2>
+  </div>
+   <div class="form">
+     <form id="myForm">
+       <label id="left">
+         Name:
+          <input type="text" name="name" value="" required>
+       </label>
+       <label id="right">
+         Roll No:
+          <input type="text" name="roll number" value="" required>
+       </label>
+       <br><br><br>
+       <label id="left">
+         Hostel From:
+          <input type="text" name="old hostel" value="" required>
+       </label>
+       <label id="right">
+         Hostel Shifted To:
+          <input type="text" name="new hostel" value="" required>
+       </label>
+       <br><br><br>
+       <label id="left">
+         Date Of Joining:
+          <input type="date" name="Join Date" value="" required>
+       </label>
+       <br><br><br>
+        <p>Reason for Shift:</p>
+        <textarea name="reason" rows="4" cols="80" required></textarea>
+       <br><br><br>
+       <label id="left">
+         Bank Account No:
+          <input type="number" name="account number" value="" required>
+       </label>
+       <br><br><br>
+       <label id="right">
+         upload your signature:
+          <input type="file" name="signature" accept="image/*" required>
+       </label>
+       <br><br><br>
+       <label id="right">
+         Date:
+          <input type="date" name="sign Date" value="" required>
+       </label>
+       <br><br><br>
+       <div style="text-align:center">
+         <input type="submit" onclick="myFunction()" value="submit">
+       </div>
+       <br><br><br>
+     </form>
+     <p id="d"></p>
+     <script src="main.js"></script>
+   </div>
+  </body>
+</html>
